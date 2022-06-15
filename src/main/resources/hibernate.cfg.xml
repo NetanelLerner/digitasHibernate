@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.password">Rt14725836s!@</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://tash-nonprod.postgres.database.azure.com:5432/postgres</property>
+        <property name="hibernate.connection.username">tashadmin@tash-nonprod</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hbm2dll.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="connection.pool_size">5</property>
+    </session-factory>
+</hibernate-configuration>
